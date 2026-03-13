@@ -199,3 +199,133 @@ CanPlay Locações
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CanPlay Locações</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fefefe;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #FF7F50, #FF6347);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+      animation: fadeIn 1s ease-in;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 42px;
+    }
+    header p {
+      margin: 10px 0 0;
+      font-size: 20px;
+    }
+    .whatsapp-btn {
+      display:inline-block;
+      background-color:#25D366;
+      color:white;
+      padding:16px 28px;
+      border-radius:10px;
+      text-decoration:none;
+      font-weight:bold;
+      font-size:18px;
+      margin-top:25px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .whatsapp-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    }
+    section {
+      padding:50px 20px;
+    }
+    h2 {
+      text-align:center;
+      margin-bottom:40px;
+      font-size:32px;
+      color:#FF6347;
+    }
+    .brinquedos {
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap:30px;
+    }
+    .brinquedo {
+      text-align:center;
+      max-width:220px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      border-radius:12px;
+      overflow: hidden;
+    }
+    .brinquedo img {
+      width:100%;
+      border-radius:12px;
+      margin-bottom:10px;
+      transition: transform 0.3s ease;
+    }
+    .brinquedo:hover img {
+      transform: scale(1.1);
+    }
+    .brinquedo:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    footer {
+      background-color:#FF6347;
+      color:white;
+      text-align:center;
+      padding:25px;
+      margin-top:50px;
+    }
+    @keyframes fadeIn {
+      from { opacity:0; transform: translateY(-20px);}
+      to { opacity:1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>CanPlay Locações</h1>
+    <p>Brinquedos para festas e eventos inesquecíveis!</p>
+    <a href="https://wa.me/54999160384" target="_blank" class="whatsapp-btn">📲 Fale Conosco</a>
+  </header>
+
+  <!-- Seção de Brinquedos -->
+  <section>
+    <h2>Nossos Brinquedos</h2>
+    <div class="brinquedos">
+      <div class="brinquedo">
+        <img src="imagens/pula_pula.jpg" alt="Pula Pula">
+        <p>Pula Pula</p>
+      </div>
+      <div class="brinquedo">
+        <img src="imagens/toboga.jpg" alt="Tobogã">
+        <p>Tobogã</p>
+      </div>
+      <div class="brinquedo">
+        <img src="imagens/cama_elastica.jpg" alt="Cama Elástica">
+        <p>Cama Elástica</p>
+      </div>
+      <!-- Adicione mais brinquedos duplicando div.brinqeudo -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 CanPlay Locações | Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>vv
